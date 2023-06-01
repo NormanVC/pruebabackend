@@ -1,6 +1,6 @@
 # DOCKERFILE A USAR
 ```
-FROM ubuntu:bionic
+FROM debian:latest
 RUN  apt-get update &&\
 apt-get install -y nodejs  npm git  python3-pip &&\
 apt-get clean &&\
