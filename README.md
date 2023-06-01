@@ -7,4 +7,4 @@ apt-get clean &&\
 git clone https://github.com/NormanVC/pruebabackend
     cd pruebabackend && npm install
 EXPOSE 3000
-ENTRYPOINT ["node","index.js"]
+ENTRYPOINT ["node","pruebabackend/index.js"]
