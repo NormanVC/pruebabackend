@@ -13,8 +13,6 @@ const PORT = 3000;
 
 try {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}
-    \n
-    ${PRINT_THIS}
     `));
 
 } catch {((error) => console.log("error starting app"));}
